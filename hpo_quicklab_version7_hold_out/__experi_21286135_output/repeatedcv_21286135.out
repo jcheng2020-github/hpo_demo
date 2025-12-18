@@ -1,0 +1,12 @@
+c0707a-s8.ufhpc
+Thu Dec 18 12:33:31 PM EST 2025
+/orange/ruogu.fang/junfu.cheng/SMILE/ml_exp/hpo_quicklab_version7_hold_out
+Workspace: /orange/ruogu.fang/junfu.cheng/SMILE/ml_exp/hpo_quicklab_version7_hold_out
+Loading Adult dataset once (same preprocessing pipeline)...
+Full dataset: n=48842 | pos_rate=0.239 | X_shape=(48842, 108)
+
+==============================
+Repetitions R = 1
+==============================
+
+--- Run 1/30 | n=50 | seed=0 | R=1 ---

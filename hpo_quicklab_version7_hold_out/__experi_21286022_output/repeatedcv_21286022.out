@@ -1,0 +1,333 @@
+c0702a-s30.ufhpc
+Thu Dec 18 12:30:27 PM EST 2025
+/orange/ruogu.fang/junfu.cheng/SMILE/ml_exp/hpo_quicklab_version7_hold_out
+Workspace: /orange/ruogu.fang/junfu.cheng/SMILE/ml_exp/hpo_quicklab_version7_hold_out
+Loading Adult dataset once (same preprocessing pipeline)...
+Full dataset: n=48842 | pos_rate=0.239 | X_shape=(48842, 108)
+
+==============================
+Repetitions R = 1
+==============================
+
+--- Run 1/30 | n=50 | seed=0 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   229  best_cv=0.80983  params={'max_depth': 4, 'max_leaf_nodes': 84, 'learning_rate': 0.16191796869827138, 'max_bins': 42, 'min_samples_leaf': 5, 'l2_regularization': 6.25216928335074e-05, 'early_stopping': False, 'validation_fraction': 0.16114613730838845, 'n_estimators': 864}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   654  best_cv=0.80983  params={'max_depth': 4, 'max_leaf_nodes': 84, 'learning_rate': 0.16191796869827138, 'max_bins': 42, 'min_samples_leaf': 5, 'l2_regularization': 6.25216928335074e-05, 'early_stopping': False, 'validation_fraction': 0.16114613730838845, 'n_estimators': 864}
+[    random] DONE  t=72.0s  evals=816  best_cv=0.80983  params={'max_depth': 4, 'max_leaf_nodes': 84, 'learning_rate': 0.16191796869827138, 'max_bins': 42, 'min_samples_leaf': 5, 'l2_regularization': 6.25216928335074e-05, 'early_stopping': False, 'validation_fraction': 0.16114613730838845, 'n_estimators': 864}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=0 R=1 | best_cv=0.80983 evals=816 | test_acc=0.69231 | run_time=72.2s
+[ETA] finished 1/30 | est remaining ~ 34:54
+
+--- Run 2/30 | n=50 | seed=1 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   405  best_cv=0.92094  params={'max_depth': 6, 'max_leaf_nodes': 87, 'learning_rate': 0.048271973945581824, 'max_bins': 206, 'min_samples_leaf': 6, 'l2_regularization': 0.49431628087041873, 'early_stopping': False, 'validation_fraction': 0.07976554338902382, 'n_estimators': 489}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   811  best_cv=0.92094  params={'max_depth': 6, 'max_leaf_nodes': 87, 'learning_rate': 0.048271973945581824, 'max_bins': 206, 'min_samples_leaf': 6, 'l2_regularization': 0.49431628087041873, 'early_stopping': False, 'validation_fraction': 0.07976554338902382, 'n_estimators': 489}
+[    random] DONE  t=72.0s  evals=990  best_cv=0.92094  params={'max_depth': 6, 'max_leaf_nodes': 87, 'learning_rate': 0.048271973945581824, 'max_bins': 206, 'min_samples_leaf': 6, 'l2_regularization': 0.49431628087041873, 'early_stopping': False, 'validation_fraction': 0.07976554338902382, 'n_estimators': 489}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=1 R=1 | best_cv=0.92094 evals=990 | test_acc=0.76923 | run_time=72.2s
+[ETA] finished 2/30 | est remaining ~ 33:42
+
+--- Run 3/30 | n=50 | seed=2 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   406  best_cv=0.78419  params={'max_depth': 11, 'max_leaf_nodes': 196, 'learning_rate': 0.09935751091452641, 'max_bins': 105, 'min_samples_leaf': 11, 'l2_regularization': 0.006740865956824171, 'early_stopping': True, 'validation_fraction': 0.06944910998828653, 'n_estimators': 228}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   809  best_cv=0.86538  params={'max_depth': 5, 'max_leaf_nodes': 33, 'learning_rate': 0.2339885479869855, 'max_bins': 199, 'min_samples_leaf': 11, 'l2_regularization': 0.07098601654133481, 'early_stopping': False, 'validation_fraction': 0.09103302212758367, 'n_estimators': 960}
+[    random] DONE  t=72.2s  evals=967  best_cv=0.86538  params={'max_depth': 5, 'max_leaf_nodes': 33, 'learning_rate': 0.2339885479869855, 'max_bins': 199, 'min_samples_leaf': 11, 'l2_regularization': 0.07098601654133481, 'early_stopping': False, 'validation_fraction': 0.09103302212758367, 'n_estimators': 960}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=2 R=1 | best_cv=0.86538 evals=967 | test_acc=0.69231 | run_time=72.5s
+[ETA] finished 3/30 | est remaining ~ 32:32
+
+--- Run 4/30 | n=50 | seed=3 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   396  best_cv=0.89316  params={'max_depth': 11, 'max_leaf_nodes': 41, 'learning_rate': 0.10691828810378813, 'max_bins': 215, 'min_samples_leaf': 6, 'l2_regularization': 0.0020645880894026216, 'early_stopping': True, 'validation_fraction': 0.24357600508010674, 'n_estimators': 145}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   797  best_cv=0.91880  params={'max_depth': 11, 'max_leaf_nodes': 67, 'learning_rate': 0.13975350994569918, 'max_bins': 139, 'min_samples_leaf': 7, 'l2_regularization': 0.01976452695016914, 'early_stopping': True, 'validation_fraction': 0.1001815979482069, 'n_estimators': 585}
+[    random] DONE  t=72.0s  evals=947  best_cv=0.91880  params={'max_depth': 11, 'max_leaf_nodes': 67, 'learning_rate': 0.13975350994569918, 'max_bins': 139, 'min_samples_leaf': 7, 'l2_regularization': 0.01976452695016914, 'early_stopping': True, 'validation_fraction': 0.1001815979482069, 'n_estimators': 585}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=3 R=1 | best_cv=0.91880 evals=947 | test_acc=0.84615 | run_time=72.0s
+[ETA] finished 4/30 | est remaining ~ 31:18
+
+--- Run 5/30 | n=50 | seed=4 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   426  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   864  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[    random] DONE  t=72.1s  evals=1028  best_cv=0.78419  params={'max_depth': 5, 'max_leaf_nodes': 228, 'learning_rate': 0.011939195274921814, 'max_bins': 176, 'min_samples_leaf': 5, 'l2_regularization': 0.9777726900914102, 'early_stopping': True, 'validation_fraction': 0.1903860643508577, 'n_estimators': 514}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=4 R=1 | best_cv=0.78419 evals=1028 | test_acc=0.84615 | run_time=72.2s
+[ETA] finished 5/30 | est remaining ~ 30:06
+
+--- Run 6/30 | n=50 | seed=5 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   434  best_cv=0.86752  params={'max_depth': 3, 'max_leaf_nodes': 152, 'learning_rate': 0.07062935996636745, 'max_bins': 208, 'min_samples_leaf': 10, 'l2_regularization': 2.2474727776362946e-05, 'early_stopping': False, 'validation_fraction': 0.28380449440095046, 'n_estimators': 436}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   846  best_cv=0.86752  params={'max_depth': 3, 'max_leaf_nodes': 152, 'learning_rate': 0.07062935996636745, 'max_bins': 208, 'min_samples_leaf': 10, 'l2_regularization': 2.2474727776362946e-05, 'early_stopping': False, 'validation_fraction': 0.28380449440095046, 'n_estimators': 436}
+[    random] DONE  t=72.1s  evals=1008  best_cv=0.89530  params={'max_depth': 8, 'max_leaf_nodes': 101, 'learning_rate': 0.007053487188900254, 'max_bins': 100, 'min_samples_leaf': 9, 'l2_regularization': 5.5940645885431784e-05, 'early_stopping': False, 'validation_fraction': 0.17764304409970638, 'n_estimators': 237}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=5 R=1 | best_cv=0.89530 evals=1008 | test_acc=0.76923 | run_time=72.1s
+[ETA] finished 6/30 | est remaining ~ 28:53
+
+--- Run 7/30 | n=50 | seed=6 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   443  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   884  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[    random] DONE  t=72.0s  evals=1054  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=6 R=1 | best_cv=0.75641 evals=1054 | test_acc=0.76923 | run_time=72.0s
+[ETA] finished 7/30 | est remaining ~ 27:40
+
+--- Run 8/30 | n=50 | seed=7 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   455  best_cv=0.89103  params={'max_depth': 10, 'max_leaf_nodes': 244, 'learning_rate': 0.15501120092754306, 'max_bins': 132, 'min_samples_leaf': 11, 'l2_regularization': 1.2985446363624275e-05, 'early_stopping': False, 'validation_fraction': 0.2203970291665947, 'n_estimators': 515}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   909  best_cv=0.89103  params={'max_depth': 10, 'max_leaf_nodes': 244, 'learning_rate': 0.15501120092754306, 'max_bins': 132, 'min_samples_leaf': 11, 'l2_regularization': 1.2985446363624275e-05, 'early_stopping': False, 'validation_fraction': 0.2203970291665947, 'n_estimators': 515}
+[    random] DONE  t=72.0s  evals=1083  best_cv=0.89103  params={'max_depth': 10, 'max_leaf_nodes': 244, 'learning_rate': 0.15501120092754306, 'max_bins': 132, 'min_samples_leaf': 11, 'l2_regularization': 1.2985446363624275e-05, 'early_stopping': False, 'validation_fraction': 0.2203970291665947, 'n_estimators': 515}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=7 R=1 | best_cv=0.89103 evals=1083 | test_acc=0.53846 | run_time=72.2s
+[ETA] finished 8/30 | est remaining ~ 26:28
+
+--- Run 9/30 | n=50 | seed=8 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   436  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   849  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[    random] DONE  t=72.0s  evals=997  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=8 R=1 | best_cv=0.75641 evals=997 | test_acc=0.76923 | run_time=72.1s
+[ETA] finished 9/30 | est remaining ~ 25:15
+
+--- Run 10/30 | n=50 | seed=9 | R=1 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=   412  best_cv=0.86752  params={'max_depth': 4, 'max_leaf_nodes': 97, 'learning_rate': 0.07079124722763003, 'max_bins': 139, 'min_samples_leaf': 12, 'l2_regularization': 2.207694908427845e-05, 'early_stopping': False, 'validation_fraction': 0.15488223782418648, 'n_estimators': 755}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  60s  evals=   809  best_cv=0.89316  params={'max_depth': 6, 'max_leaf_nodes': 42, 'learning_rate': 0.05396480569404951, 'max_bins': 150, 'min_samples_leaf': 5, 'l2_regularization': 3.700767716495751e-06, 'early_stopping': False, 'validation_fraction': 0.10878277681279057, 'n_estimators': 655}
+[    random] DONE  t=72.1s  evals=970  best_cv=0.89316  params={'max_depth': 6, 'max_leaf_nodes': 42, 'learning_rate': 0.05396480569404951, 'max_bins': 150, 'min_samples_leaf': 5, 'l2_regularization': 3.700767716495751e-06, 'early_stopping': False, 'validation_fraction': 0.10878277681279057, 'n_estimators': 655}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=9 R=1 | best_cv=0.89316 evals=970 | test_acc=0.76923 | run_time=72.3s
+[ETA] finished 10/30 | est remaining ~ 24:03
+
+[aggregate]
+R=1 | test_acc mean=0.74615 std=0.08919 sem=0.02821
+
+==============================
+Repetitions R = 50
+==============================
+
+--- Run 11/30 | n=50 | seed=0 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  32s  evals=    10  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  63s  evals=    22  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[    random] DONE  t=73.0s  evals=23  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=0 R=50 | best_cv=0.75641 evals=23 | test_acc=0.76923 | run_time=73.1s
+[ETA] finished 11/30 | est remaining ~ 22:53
+
+--- Run 12/30 | n=50 | seed=1 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  34s  evals=     8  best_cv=0.75641  params={'max_depth': 5, 'max_leaf_nodes': 160, 'learning_rate': 0.1313966649630589, 'max_bins': 227, 'min_samples_leaf': 21, 'l2_regularization': 6.102154231074422e-05, 'early_stopping': False, 'validation_fraction': 0.24024061122814389, 'n_estimators': 583}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  66s  evals=    18  best_cv=0.79970  params={'max_depth': 4, 'max_leaf_nodes': 36, 'learning_rate': 0.14797734328448847, 'max_bins': 147, 'min_samples_leaf': 8, 'l2_regularization': 0.19011526799871842, 'early_stopping': False, 'validation_fraction': 0.1123898064133557, 'n_estimators': 212}
+[    random] DONE  t=76.6s  evals=20  best_cv=0.79970  params={'max_depth': 4, 'max_leaf_nodes': 36, 'learning_rate': 0.14797734328448847, 'max_bins': 147, 'min_samples_leaf': 8, 'l2_regularization': 0.19011526799871842, 'early_stopping': False, 'validation_fraction': 0.1123898064133557, 'n_estimators': 212}
+[countdown] elapsed 01:16 | remaining budget ~ 00:00
+[done] seed=1 R=50 | best_cv=0.79970 evals=20 | test_acc=0.84615 | run_time=76.7s
+[ETA] finished 12/30 | est remaining ~ 21:47
+
+--- Run 13/30 | n=50 | seed=2 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=     6  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  68s  evals=    12  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[    random] DONE  t=72.1s  evals=14  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=2 R=50 | best_cv=0.75641 evals=14 | test_acc=0.76923 | run_time=72.1s
+[ETA] finished 13/30 | est remaining ~ 20:34
+
+--- Run 14/30 | n=50 | seed=3 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  34s  evals=     7  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 166, 'learning_rate': 0.02293892509450154, 'max_bins': 126, 'min_samples_leaf': 159, 'l2_regularization': 0.002081492046825628, 'early_stopping': True, 'validation_fraction': 0.2013998825348317, 'n_estimators': 957}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=76.4s  evals=16  best_cv=0.85393  params={'max_depth': 7, 'max_leaf_nodes': 148, 'learning_rate': 0.005721143543817202, 'max_bins': 118, 'min_samples_leaf': 7, 'l2_regularization': 0.33019862559534535, 'early_stopping': False, 'validation_fraction': 0.05501322257614984, 'n_estimators': 730}
+[countdown] elapsed 01:16 | remaining budget ~ 00:00
+[done] seed=3 R=50 | best_cv=0.85393 evals=16 | test_acc=0.69231 | run_time=76.6s
+[ETA] finished 14/30 | est remaining ~ 19:26
+
+--- Run 15/30 | n=50 | seed=4 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=    10  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  61s  evals=    22  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[    random] DONE  t=77.6s  evals=24  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[countdown] elapsed 01:17 | remaining budget ~ 00:00
+[done] seed=4 R=50 | best_cv=0.75641 evals=24 | test_acc=0.76923 | run_time=77.6s
+[ETA] finished 15/30 | est remaining ~ 18:18
+
+--- Run 16/30 | n=50 | seed=5 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  31s  evals=    12  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  68s  evals=    21  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[    random] DONE  t=73.4s  evals=21  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[countdown] elapsed 01:13 | remaining budget ~ 00:00
+[done] seed=5 R=50 | best_cv=0.75641 evals=21 | test_acc=0.76923 | run_time=73.4s
+[ETA] finished 16/30 | est remaining ~ 17:05
+
+--- Run 17/30 | n=50 | seed=6 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  33s  evals=    10  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  68s  evals=    15  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[    random] DONE  t=74.3s  evals=15  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:14 | remaining budget ~ 00:00
+[done] seed=6 R=50 | best_cv=0.75641 evals=15 | test_acc=0.76923 | run_time=74.3s
+[ETA] finished 17/30 | est remaining ~ 15:52
+
+--- Run 18/30 | n=50 | seed=7 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  35s  evals=    13  best_cv=0.75641  params={'max_depth': 8, 'max_leaf_nodes': 53, 'learning_rate': 0.009706412436953606, 'max_bins': 44, 'min_samples_leaf': 23, 'l2_regularization': 0.5609446934470016, 'early_stopping': True, 'validation_fraction': 0.1414222292281464, 'n_estimators': 159}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=77.7s  evals=24  best_cv=0.81406  params={'max_depth': 11, 'max_leaf_nodes': 107, 'learning_rate': 0.0023254464722065916, 'max_bins': 171, 'min_samples_leaf': 11, 'l2_regularization': 0.20276860659740087, 'early_stopping': False, 'validation_fraction': 0.2946253106797432, 'n_estimators': 984}
+[countdown] elapsed 01:17 | remaining budget ~ 00:00
+[done] seed=7 R=50 | best_cv=0.81406 evals=24 | test_acc=0.61538 | run_time=77.9s
+[ETA] finished 18/30 | est remaining ~ 14:42
+
+--- Run 19/30 | n=50 | seed=8 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=     9  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  67s  evals=    24  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[    random] DONE  t=74.2s  evals=25  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:14 | remaining budget ~ 00:00
+[done] seed=8 R=50 | best_cv=0.75641 evals=25 | test_acc=0.76923 | run_time=74.2s
+[ETA] finished 19/30 | est remaining ~ 13:29
+
+--- Run 20/30 | n=50 | seed=9 | R=50 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  33s  evals=    12  best_cv=0.75641  params={'max_depth': 10, 'max_leaf_nodes': 171, 'learning_rate': 0.008575902374280252, 'max_bins': 67, 'min_samples_leaf': 52, 'l2_regularization': 1.163946315553289, 'early_stopping': True, 'validation_fraction': 0.13458137792122005, 'n_estimators': 574}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  66s  evals=    21  best_cv=0.75641  params={'max_depth': 10, 'max_leaf_nodes': 171, 'learning_rate': 0.008575902374280252, 'max_bins': 67, 'min_samples_leaf': 52, 'l2_regularization': 1.163946315553289, 'early_stopping': True, 'validation_fraction': 0.13458137792122005, 'n_estimators': 574}
+[    random] DONE  t=77.8s  evals=23  best_cv=0.75641  params={'max_depth': 10, 'max_leaf_nodes': 171, 'learning_rate': 0.008575902374280252, 'max_bins': 67, 'min_samples_leaf': 52, 'l2_regularization': 1.163946315553289, 'early_stopping': True, 'validation_fraction': 0.13458137792122005, 'n_estimators': 574}
+[countdown] elapsed 01:17 | remaining budget ~ 00:00
+[done] seed=9 R=50 | best_cv=0.75641 evals=23 | test_acc=0.76923 | run_time=77.8s
+[ETA] finished 20/30 | est remaining ~ 12:17
+
+[aggregate]
+R=50 | test_acc mean=0.75385 std=0.06068 sem=0.01919
+
+==============================
+Repetitions R = 100
+==============================
+
+--- Run 21/30 | n=50 | seed=0 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  31s  evals=     6  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  71s  evals=    10  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[    random] DONE  t=73.3s  evals=10  best_cv=0.75641  params={'max_depth': 9, 'max_leaf_nodes': 209, 'learning_rate': 0.16811629181527474, 'max_bins': 42, 'min_samples_leaf': 71, 'l2_regularization': 5.731314024358108, 'early_stopping': False, 'validation_fraction': 0.15123353436260356, 'n_estimators': 902}
+[countdown] elapsed 01:13 | remaining budget ~ 00:00
+[done] seed=0 R=100 | best_cv=0.75641 evals=10 | test_acc=0.76923 | run_time=73.5s
+[ETA] finished 21/30 | est remaining ~ 11:04
+
+--- Run 22/30 | n=50 | seed=1 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  36s  evals=     3  best_cv=0.75641  params={'max_depth': 5, 'max_leaf_nodes': 160, 'learning_rate': 0.1313966649630589, 'max_bins': 227, 'min_samples_leaf': 21, 'l2_regularization': 6.102154231074422e-05, 'early_stopping': False, 'validation_fraction': 0.24024061122814389, 'n_estimators': 583}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=75.5s  evals=7  best_cv=0.75641  params={'max_depth': 5, 'max_leaf_nodes': 160, 'learning_rate': 0.1313966649630589, 'max_bins': 227, 'min_samples_leaf': 21, 'l2_regularization': 6.102154231074422e-05, 'early_stopping': False, 'validation_fraction': 0.24024061122814389, 'n_estimators': 583}
+[countdown] elapsed 01:15 | remaining budget ~ 00:00
+[done] seed=1 R=100 | best_cv=0.75641 evals=7 | test_acc=0.76923 | run_time=75.6s
+[ETA] finished 22/30 | est remaining ~ 09:50
+
+--- Run 23/30 | n=50 | seed=2 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  36s  evals=     4  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  70s  evals=     6  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[    random] DONE  t=89.6s  evals=6  best_cv=0.75641  params={'max_depth': 3, 'max_leaf_nodes': 38, 'learning_rate': 0.0016299714138735375, 'max_bins': 245, 'min_samples_leaf': 48, 'l2_regularization': 0.14183712625044814, 'early_stopping': False, 'validation_fraction': 0.11289582439874142, 'n_estimators': 317}
+[countdown] elapsed 01:29 | remaining budget ~ 00:00
+[done] seed=2 R=100 | best_cv=0.75641 evals=6 | test_acc=0.76923 | run_time=89.7s
+[ETA] finished 23/30 | est remaining ~ 08:41
+
+--- Run 24/30 | n=50 | seed=3 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  45s  evals=     5  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 166, 'learning_rate': 0.02293892509450154, 'max_bins': 126, 'min_samples_leaf': 159, 'l2_regularization': 0.002081492046825628, 'early_stopping': True, 'validation_fraction': 0.2013998825348317, 'n_estimators': 957}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=75.0s  evals=6  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 166, 'learning_rate': 0.02293892509450154, 'max_bins': 126, 'min_samples_leaf': 159, 'l2_regularization': 0.002081492046825628, 'early_stopping': True, 'validation_fraction': 0.2013998825348317, 'n_estimators': 957}
+[countdown] elapsed 01:14 | remaining budget ~ 00:00
+[done] seed=3 R=100 | best_cv=0.75641 evals=6 | test_acc=0.76923 | run_time=75.0s
+[ETA] finished 24/30 | est remaining ~ 07:27
+
+--- Run 25/30 | n=50 | seed=4 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  33s  evals=     5  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=73.1s  evals=11  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 92, 'learning_rate': 0.0018109859691618404, 'max_bins': 133, 'min_samples_leaf': 127, 'l2_regularization': 1.2156425576670132e-05, 'early_stopping': True, 'validation_fraction': 0.054954294118268424, 'n_estimators': 662}
+[countdown] elapsed 01:13 | remaining budget ~ 00:00
+[done] seed=4 R=100 | best_cv=0.75641 evals=11 | test_acc=0.76923 | run_time=73.1s
+[ETA] finished 25/30 | est remaining ~ 06:12
+
+--- Run 26/30 | n=50 | seed=5 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  30s  evals=     6  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  63s  evals=    12  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[    random] DONE  t=86.6s  evals=14  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 80, 'learning_rate': 0.07152658216377032, 'max_bins': 235, 'min_samples_leaf': 181, 'l2_regularization': 3.9550500746013295, 'early_stopping': True, 'validation_fraction': 0.260087030130667, 'n_estimators': 894}
+[countdown] elapsed 01:26 | remaining budget ~ 00:00
+[done] seed=5 R=100 | best_cv=0.75641 evals=14 | test_acc=0.76923 | run_time=86.6s
+[ETA] finished 26/30 | est remaining ~ 04:59
+
+--- Run 27/30 | n=50 | seed=6 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  44s  evals=     6  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=81.5s  evals=10  best_cv=0.75641  params={'max_depth': 12, 'max_leaf_nodes': 225, 'learning_rate': 0.0015900983178871216, 'max_bins': 227, 'min_samples_leaf': 71, 'l2_regularization': 1.8103360759547454e-06, 'early_stopping': True, 'validation_fraction': 0.21570464072094192, 'n_estimators': 581}
+[countdown] elapsed 01:21 | remaining budget ~ 00:00
+[done] seed=6 R=100 | best_cv=0.75641 evals=10 | test_acc=0.76923 | run_time=81.6s
+[ETA] finished 27/30 | est remaining ~ 03:45
+
+--- Run 28/30 | n=50 | seed=7 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  31s  evals=    10  best_cv=0.75641  params={'max_depth': 8, 'max_leaf_nodes': 53, 'learning_rate': 0.009706412436953606, 'max_bins': 44, 'min_samples_leaf': 23, 'l2_regularization': 0.5609446934470016, 'early_stopping': True, 'validation_fraction': 0.1414222292281464, 'n_estimators': 159}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  70s  evals=    13  best_cv=0.75641  params={'max_depth': 8, 'max_leaf_nodes': 53, 'learning_rate': 0.009706412436953606, 'max_bins': 44, 'min_samples_leaf': 23, 'l2_regularization': 0.5609446934470016, 'early_stopping': True, 'validation_fraction': 0.1414222292281464, 'n_estimators': 159}
+[    random] DONE  t=72.8s  evals=13  best_cv=0.75641  params={'max_depth': 8, 'max_leaf_nodes': 53, 'learning_rate': 0.009706412436953606, 'max_bins': 44, 'min_samples_leaf': 23, 'l2_regularization': 0.5609446934470016, 'early_stopping': True, 'validation_fraction': 0.1414222292281464, 'n_estimators': 159}
+[countdown] elapsed 01:12 | remaining budget ~ 00:00
+[done] seed=7 R=100 | best_cv=0.75641 evals=13 | test_acc=0.76923 | run_time=72.8s
+[ETA] finished 28/30 | est remaining ~ 02:30
+
+--- Run 29/30 | n=50 | seed=8 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  32s  evals=     6  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] t=  63s  evals=    10  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[    random] DONE  t=75.4s  evals=10  best_cv=0.75641  params={'max_depth': 6, 'max_leaf_nodes': 109, 'learning_rate': 0.25452918657433315, 'max_bins': 64, 'min_samples_leaf': 54, 'l2_regularization': 0.08584568296385033, 'early_stopping': True, 'validation_fraction': 0.08421075315669362, 'n_estimators': 930}
+[countdown] elapsed 01:15 | remaining budget ~ 00:00
+[done] seed=8 R=100 | best_cv=0.75641 evals=10 | test_acc=0.76923 | run_time=75.4s
+[ETA] finished 29/30 | est remaining ~ 01:15
+
+--- Run 30/30 | n=50 | seed=9 | R=100 ---
+[countdown] elapsed 00:30 | remaining budget ~ 00:41
+[    random] t=  38s  evals=     5  best_cv=0.75641  params={'max_depth': 10, 'max_leaf_nodes': 171, 'learning_rate': 0.008575902374280252, 'max_bins': 67, 'min_samples_leaf': 52, 'l2_regularization': 1.163946315553289, 'early_stopping': True, 'validation_fraction': 0.13458137792122005, 'n_estimators': 574}
+[countdown] elapsed 01:00 | remaining budget ~ 00:11
+[    random] DONE  t=78.6s  evals=12  best_cv=0.75641  params={'max_depth': 10, 'max_leaf_nodes': 171, 'learning_rate': 0.008575902374280252, 'max_bins': 67, 'min_samples_leaf': 52, 'l2_regularization': 1.163946315553289, 'early_stopping': True, 'validation_fraction': 0.13458137792122005, 'n_estimators': 574}
+[countdown] elapsed 01:18 | remaining budget ~ 00:00
+[done] seed=9 R=100 | best_cv=0.75641 evals=12 | test_acc=0.76923 | run_time=78.6s
+[ETA] finished 30/30 | est remaining ~ 00:00
+
+[aggregate]
+R=100 | test_acc mean=0.76923 std=0.00000 sem=0.00000
+
+==============================
+FINAL SUMMARY (TEST performance after HPO)
+==============================
+   R      mean       std       sem  outer_seeds
+-----------------------------------------------
+   1   0.74615   0.08919   0.02821           10
+  50   0.75385   0.06068   0.01919           10
+ 100   0.76923   0.00000   0.00000           10
+
+Wrote results to: __experi_21286022_output/n50_repeatedcv_results.csv
+Thu Dec 18 01:08:13 PM EST 2025
+Job 21286022 finished.
