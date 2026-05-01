@@ -55,6 +55,19 @@ The results can be used to understand:
 - Which algorithm finds the best final model configuration
 - How search strategy affects model performance and computational efficiency
 
+## Experiment Summary
+
+This repository contains a sequence of HPO QuickLab hold-out experiments. Each experiment folder includes its own `README.md` file describing the problem setup, optimization methods, evaluation metrics, and execution commands. Together, these experiments compare hyperparameter optimization methods across classical machine learning models, neural network models, different compute budgets, sample-size settings, and repeated cross-validation strategies.
+
+| Experiment Folder | Main Setup | Model / Dataset | HPO Methods Covered | Main Measurements |
+|---|---|---|---|---|
+| `hpo_quicklab_version2_hold_out` | Baseline hold-out HPO experiment for tabular classification | HistGradientBoostingClassifier on Adult income dataset | Grid search, random search, Bayesian optimization, genetic algorithm | Best CV accuracy, number of evaluations, best hyperparameters, held-out test accuracy |
+| `hpo_quicklab_version3_hold_out` | Neural-network HPO with CPU/GPU execution | MLP on Fashion-MNIST; Small CNN on CIFAR-10 | Grid search, random search, Bayesian optimization, genetic algorithm | Best validation accuracy, number of evaluations, best hyperparameters, final test accuracy |
+| `hpo_quicklab_version4_hold_out` | Hold-out HPO experiment for gradient boosting | HistGradientBoostingClassifier on Adult income dataset | Grid search, random search, Bayesian optimization, genetic algorithm | Best training-CV accuracy, number of evaluations, best hyperparameters, held-out test accuracy |
+| `hpo_quicklab_version5_hold_out` | Neural-network HPO with longer time budget | MLP on Fashion-MNIST; Small CNN on CIFAR-10 | Grid search, random search, Bayesian optimization, genetic algorithm | Best validation accuracy, number of evaluations, best hyperparameters, final test accuracy under a longer budget |
+| `hpo_quicklab_version6_hold_out` | Sample-size study after HPO | HistGradientBoostingClassifier on stratified Adult subsamples | Random search and grid search | Test accuracy mean, standard deviation, SEM, best CV accuracy, effect of sample size |
+| `hpo_quicklab_version7_hold_out` | Repeated-CV study for very small sample HPO | HistGradientBoostingClassifier on Adult dataset with default `n=50` | Random search with repeated k-fold CV objective | Best repeated-CV accuracy, evaluations, test accuracy mean, standard deviation, SEM across repetition counts |
+
 # Maintenance Status
 
 **Repository Name:** HPO QuickLab Hold-Out Experiments  
