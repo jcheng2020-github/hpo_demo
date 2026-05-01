@@ -1,7 +1,7 @@
 # HPO QuickLab Version 2: Hold-Out Experiment
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
-![Status](https://img.shields.io/badge/Status-MVP-orange)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 ## Short Introduction
 
