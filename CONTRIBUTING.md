@@ -209,5 +209,3 @@ For questions, open an issue or contact the maintainer listed in the repository 
 ## License
 
 By contributing to this repository, you agree that your contributions will be licensed under the same license as the project.
-
-```
