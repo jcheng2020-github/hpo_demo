@@ -22,9 +22,9 @@ The model predicts whether income is:
 - `>50K`
 - `<=50K`
 
-The dataset is loaded from OpenML. Categorical variables are one-hot encoded, numerical variables are passed through directly, and the final feature matrix is converted to a dense NumPy array. :contentReference[oaicite:2]{index=2}
+The dataset is loaded from OpenML. Categorical variables are one-hot encoded, numerical variables are passed through directly, and the final feature matrix is converted to a dense NumPy array.
 
-Unlike the earlier fixed-size HPO experiments, this version first loads the full Adult dataset and then creates stratified subsamples of different sizes. Stratified subsampling keeps the class balance approximately consistent across sample sizes. :contentReference[oaicite:3]{index=3}
+Unlike the earlier fixed-size HPO experiments, this version first loads the full Adult dataset and then creates stratified subsamples of different sizes. Stratified subsampling keeps the class balance approximately consistent across sample sizes.
 
 For each sample size and random seed:
 
