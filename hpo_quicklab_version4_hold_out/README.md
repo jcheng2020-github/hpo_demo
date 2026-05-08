@@ -43,8 +43,7 @@ The hyperparameters searched include:
 - `validation_fraction`
 - `n_estimators`
 
-The configured search ranges include tree depth from 3 to 12, max leaf nodes from 15 to 255, learning rate from `1e-3` to about `3e-1`, max bins from 32 to 255, and number of estimators from 100 to 1000. :contentReference[oaicite:2]{index=2}
-
+The configured search ranges include tree depth from 3 to 12, max leaf nodes from 15 to 255, learning rate from `1e-3` to about `3e-1`, max bins from 32 to 255, and number of estimators from 100 to 1000.
 ## Hyperparameter Optimization Methods
 
 This experiment compares four search methods:
@@ -74,14 +73,13 @@ The genetic algorithm maintains a population of configurations and improves them
 - Mutation
 - Replacement of weak candidates
 
-The implementation includes grid search, random search, Bayesian optimization with GP expected improvement, and a genetic algorithm. :contentReference[oaicite:3]{index=3}
+The implementation includes grid search, random search, Bayesian optimization with GP expected improvement, and a genetic algorithm.
 
 ## What Is Measured
 
 The main optimization objective is cross-validation accuracy on the training set.
 
-Each candidate configuration is evaluated using `cross_val_score` with accuracy as the scoring metric. The default number of CV folds is 3. :contentReference[oaicite:4]{index=4}
-
+Each candidate configuration is evaluated using `cross_val_score` with accuracy as the scoring metric. The default number of CV folds is 3. 
 The experiment measures:
 
 - Best training cross-validation accuracy
@@ -90,7 +88,7 @@ The experiment measures:
 - Runtime progress under the time budget
 - Final held-out test accuracy
 
-After each search method finishes, the best configuration is retrained on the full training set and evaluated on the held-out test set. :contentReference[oaicite:5]{index=5}
+After each search method finishes, the best configuration is retrained on the full training set and evaluated on the held-out test set.
 
 ## How to Run the Code
 
